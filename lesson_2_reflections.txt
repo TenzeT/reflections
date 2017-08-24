@@ -1,0 +1,2 @@
+What happens when you initialize a repository? What do you need to do to it? 
+  Using git init, a .git file is created, empty repo is created. There are no commits at the time of creation though, so we must make a first commit. Using ls -a we can see the .git (or other hidden) files. 
