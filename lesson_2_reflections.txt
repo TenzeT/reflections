@@ -3,6 +3,9 @@ What happens when you initialize a repository? What do you need to do to it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	Makes it clear as to which files you want to add to repo. Allows you to mess with files in working directory but still have them in the staging area. Can keep updating till ready to commit. Staging area also doesn't push files that aren't ready to the repo. 
-How can you use the staging area to make sure you have one commit per logical change?
 
+How can you use the staging area to make sure you have one commit per logical change?
     You can compare files in the working directory and stage using git diff. You can compare files in stage and repo using git diff --staged. By comparing these files, you can make sure you only are making one change per commit. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	If you're trying out a new way to do something but want to keep the original. Taking a different route, creating in a different language. 
