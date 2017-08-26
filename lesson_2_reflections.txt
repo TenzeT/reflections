@@ -14,4 +14,8 @@ How do the diagrams help you visualize the branch structure?
 	Can see which branches are unreachable, where branches move off master (on what commit). 
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-	Can access both past commits and see them in log. New head is in master. Each branch goes off on its path till a merge. 
+	Merge two to master, have access to all past commits. Makes sense.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Automatic merging makes it easy when possible. Could possibly make a mistake though, which is why is asks if there is a possible conflict when merging files. 
+
