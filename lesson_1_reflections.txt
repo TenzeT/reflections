@@ -17,17 +17,18 @@ docs does?
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    Can go different directions with both files, can choose a path later on. Easier to work on programs piece by piece as well. Smaller chunks rather than huge edit. 
+    Can go different directions with both files, can choose a path later on. Easier to work on programs piece by piece as well. Smaller chunks rather than huge edit. Some files are needed all to run together to function. More clear log. 
 
 How can you use the commands git log and git diff to view the history of files?
 
-    Can see history of changes
+    Log can show you the history of changes you've made, by who, when. 
+    Git diff can show you lines added and deleted (differences between the files)
 
 How might using version control make you more confident to make changes that
 could break something?
 
-    Can easly revert back to the older version
+    Can easly revert back to the older version using 'git checkout <ID>'. Can also compare files where bug was introduced to figure out what happened/changed in the code. 
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Anything and everything. 
+    For all projects including those assigned by University. With the slack team to collaborate. With friends to collaborate.  
