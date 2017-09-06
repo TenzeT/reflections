@@ -6,3 +6,8 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 	Forks are only on Github, are tracked -- basically github clone to your own page. Clone is just a copy. Branch is completely different than the other two ... 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	Know what you've done since the last pull. Can see where other contributors had the head at a date/time. 
+
+
